@@ -11,3 +11,17 @@ def linear_search(products, target):
             return index
     return -1
 
+# Sample product list (unsorted)
+products = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']
+
+# Product to search for
+target_product = 'grape'
+
+# Perfrom a linear search
+result = linear_search(products, target_product)
+
+# Print the results
+if result != -1:
+    print(f"Product '{target_product}' was found at index {result}.")
+else:
+    print(f"Product '{target_product}' was not found in the catalog.")
