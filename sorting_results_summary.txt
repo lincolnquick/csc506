@@ -1,0 +1,76 @@
+============================================================
+Dataset Size   Data Type           Algorithm           Time (s)  
+============================================================
+100            Random Integers     Bubble Sort         0.000277
+100            Random Integers     Merge Sort          0.000103
+100            Random Integers     Quick Sort          0.000057
+100            Sorted Data         Bubble Sort         0.000004
+100            Sorted Data         Merge Sort          0.000074
+100            Sorted Data         Quick Sort          0.000300
+100            Reversed Data       Bubble Sort         0.000342
+100            Reversed Data       Merge Sort          0.000078
+100            Reversed Data       Quick Sort          0.000233
+100            Few Unique Elements Bubble Sort         0.000236
+100            Few Unique Elements Merge Sort          0.000130
+100            Few Unique Elements Quick Sort          0.000066
+1000           Random Integers     Bubble Sort         0.030367
+1000           Random Integers     Merge Sort          0.001104
+1000           Random Integers     Quick Sort          0.000704
+1000           Sorted Data         Bubble Sort         0.000039
+1000           Sorted Data         Merge Sort          0.000757
+1000           Sorted Data         Quick Sort          0.026051
+1000           Reversed Data       Bubble Sort         0.035326
+1000           Reversed Data       Merge Sort          0.000807
+1000           Reversed Data       Quick Sort          0.019458
+1000           Few Unique Elements Bubble Sort         0.030383
+1000           Few Unique Elements Merge Sort          0.001108
+1000           Few Unique Elements Quick Sort          0.003235
+5000           Random Integers     Bubble Sort         0.824809
+5000           Random Integers     Merge Sort          0.007042
+5000           Random Integers     Quick Sort          0.004157
+5000           Sorted Data         Bubble Sort         0.000197
+5000           Sorted Data         Merge Sort          0.004518
+5000           Sorted Data         Quick Sort          0.684827
+5000           Reversed Data       Bubble Sort         0.989705
+5000           Reversed Data       Merge Sort          0.004735
+5000           Reversed Data       Quick Sort          0.499625
+5000           Few Unique Elements Bubble Sort         0.743278
+5000           Few Unique Elements Merge Sort          0.006818
+5000           Few Unique Elements Quick Sort          0.069007
+10000          Random Integers     Bubble Sort         3.298306
+10000          Random Integers     Merge Sort          0.015150
+10000          Random Integers     Quick Sort          0.009653
+10000          Sorted Data         Bubble Sort         0.000416
+10000          Sorted Data         Merge Sort          0.009495
+10000          Sorted Data         Quick Sort          2.771440
+10000          Reversed Data       Bubble Sort         4.044254
+10000          Reversed Data       Merge Sort          0.020259
+10000          Reversed Data       Quick Sort          2.016062
+10000          Few Unique Elements Bubble Sort         3.003244
+10000          Few Unique Elements Merge Sort          0.014054
+10000          Few Unique Elements Quick Sort          0.270298
+20000          Random Integers     Bubble Sort         13.603890
+20000          Random Integers     Merge Sort          0.032088
+20000          Random Integers     Quick Sort          0.020704
+20000          Sorted Data         Bubble Sort         0.000788
+20000          Sorted Data         Merge Sort          0.019655
+20000          Sorted Data         Quick Sort          11.226275
+20000          Reversed Data       Bubble Sort         16.480318
+20000          Reversed Data       Merge Sort          0.022579
+20000          Reversed Data       Quick Sort          8.224299
+20000          Few Unique Elements Bubble Sort         12.264093
+20000          Few Unique Elements Merge Sort          0.030692
+20000          Few Unique Elements Quick Sort          1.083972
+50000          Random Integers     Bubble Sort         84.105728
+50000          Random Integers     Merge Sort          0.086119
+50000          Random Integers     Quick Sort          0.061199
+50000          Sorted Data         Bubble Sort         0.002047
+50000          Sorted Data         Merge Sort          0.052041
+50000          Sorted Data         Quick Sort          70.085771
+50000          Reversed Data       Bubble Sort         102.692301
+50000          Reversed Data       Merge Sort          0.056158
+50000          Reversed Data       Quick Sort          50.747048
+50000          Few Unique Elements Bubble Sort         76.002487
+50000          Few Unique Elements Merge Sort          0.080532
+50000          Few Unique Elements Quick Sort          6.722111
+============================================================
