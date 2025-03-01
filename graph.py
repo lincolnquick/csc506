@@ -4,6 +4,7 @@ class Graph:
     def __init__(self):
         """Initialize an empty graph with adjacent list representation, ideal for traversing neighbors."""
         self.adjacency_list = {}
+        self.base_weight = 1
 
     def add_edge(self, start, end, weight):
         """Add a directed edge from start to end with a weight."""
