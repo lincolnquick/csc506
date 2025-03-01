@@ -29,7 +29,7 @@ Description:
 
 Usage:
     Run this script directly to execute sorting tests:
-        $ python sorting_algorithm_comparator.py
+        $ python main.py
 
 Sections:
     1. Define Sorting Algorithms
