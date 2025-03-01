@@ -4,100 +4,121 @@ Sorting Algorithm Performance Comparison
 Dataset Size: 1000
 
 Data Type: Random Integers
-Bubble Sort (Standard): 0.030041 seconds
-Bubble Sort (Optimized): 0.002231 seconds
-Merge Sort (Standard): 0.001212 seconds
-Merge Sort (Optimized): 0.000973 seconds
-Quick Sort (Standard): 0.001063 seconds
-Quick Sort (Optimized): 0.000971 seconds
+Bubble Sort (Standard): 0.033035 seconds
+Bubble Sort (Optimized): 0.002758 seconds
+Merge Sort (Standard): 0.001187 seconds
+Merge Sort (Optimized): 0.001072 seconds
+Quick Sort (Standard): 0.000997 seconds
+Quick Sort (Optimized): 0.001404 seconds
 
 Data Type: Sorted Data
 Bubble Sort (Standard): 0.000040 seconds
-Bubble Sort (Optimized): 0.000040 seconds
-Merge Sort (Standard): 0.000767 seconds
-Merge Sort (Optimized): 0.000479 seconds
-Quick Sort (Standard): 0.000870 seconds
-Quick Sort (Optimized): 0.000766 seconds
+Bubble Sort (Optimized): 0.000091 seconds
+Merge Sort (Standard): 0.001068 seconds
+Merge Sort (Optimized): 0.000514 seconds
+Quick Sort (Standard): 0.000946 seconds
+Quick Sort (Optimized): 0.000780 seconds
 
 Data Type: Reversed Data
-Bubble Sort (Standard): 0.035064 seconds
-Bubble Sort (Optimized): 0.002152 seconds
-Merge Sort (Standard): 0.000796 seconds
-Merge Sort (Optimized): 0.000683 seconds
-Quick Sort (Standard): 0.000966 seconds
-Quick Sort (Optimized): 0.001419 seconds
+Bubble Sort (Standard): 0.035764 seconds
+Bubble Sort (Optimized): 0.002104 seconds
+Merge Sort (Standard): 0.000840 seconds
+Merge Sort (Optimized): 0.000717 seconds
+Quick Sort (Standard): 0.000883 seconds
+Quick Sort (Optimized): 0.001354 seconds
 
 Data Type: Few Unique Elements
-Bubble Sort (Standard): 0.027428 seconds
-Bubble Sort (Optimized): 0.002082 seconds
-Merge Sort (Standard): 0.001138 seconds
-Merge Sort (Optimized): 0.000923 seconds
-Quick Sort (Standard): 0.003369 seconds
-Quick Sort (Optimized): 0.005375 seconds
+Bubble Sort (Standard): 0.026965 seconds
+Bubble Sort (Optimized): 0.002041 seconds
+Merge Sort (Standard): 0.001175 seconds
+Merge Sort (Optimized): 0.000886 seconds
+Quick Sort (Standard): 0.003377 seconds
+Quick Sort (Optimized): 0.005323 seconds
 
 Dataset Size: 5000
 
 Data Type: Random Integers
-Bubble Sort (Standard): 0.825748 seconds
-Bubble Sort (Optimized): 0.029540 seconds
-Merge Sort (Standard): 0.006864 seconds
-Merge Sort (Optimized): 0.005940 seconds
-Quick Sort (Standard): 0.005400 seconds
-Quick Sort (Optimized): 0.014472 seconds
+Bubble Sort (Standard): 0.811177 seconds
+Bubble Sort (Optimized): 0.028372 seconds
+Merge Sort (Standard): 0.006801 seconds
+Merge Sort (Optimized): 0.005845 seconds
+Quick Sort (Standard): 0.005408 seconds
+Quick Sort (Optimized): 0.013849 seconds
 
 Data Type: Sorted Data
-Bubble Sort (Standard): 0.000197 seconds
-Bubble Sort (Optimized): 0.000197 seconds
-Merge Sort (Standard): 0.004414 seconds
-Merge Sort (Optimized): 0.002959 seconds
-Quick Sort (Standard): 0.005047 seconds
-Quick Sort (Optimized): 0.009734 seconds
+Bubble Sort (Standard): 0.000193 seconds
+Bubble Sort (Optimized): 0.000194 seconds
+Merge Sort (Standard): 0.004387 seconds
+Merge Sort (Optimized): 0.003031 seconds
+Quick Sort (Standard): 0.005039 seconds
+Quick Sort (Optimized): 0.009683 seconds
 
 Data Type: Reversed Data
-Bubble Sort (Standard): 1.005152 seconds
-Bubble Sort (Optimized): 0.027888 seconds
-Merge Sort (Standard): 0.004678 seconds
-Merge Sort (Optimized): 0.004400 seconds
-Quick Sort (Standard): 0.005139 seconds
-Quick Sort (Optimized): 0.022362 seconds
+Bubble Sort (Standard): 0.974861 seconds
+Bubble Sort (Optimized): 0.026741 seconds
+Merge Sort (Standard): 0.004560 seconds
+Merge Sort (Optimized): 0.004347 seconds
+Quick Sort (Standard): 0.005105 seconds
+Quick Sort (Optimized): 0.022256 seconds
 
 Data Type: Few Unique Elements
-Bubble Sort (Standard): 0.748192 seconds
-Bubble Sort (Optimized): 0.026075 seconds
-Merge Sort (Standard): 0.006512 seconds
-Merge Sort (Optimized): 0.005623 seconds
-Quick Sort (Standard): 0.070526 seconds
-Quick Sort (Optimized): 0.128793 seconds
+Bubble Sort (Standard): 0.720086 seconds
+Bubble Sort (Optimized): 0.025484 seconds
+Merge Sort (Standard): 0.006504 seconds
+Merge Sort (Optimized): 0.005480 seconds
+Quick Sort (Standard): 0.070075 seconds
+Quick Sort (Optimized): 0.131098 seconds
 
 Dataset Size: 10000
 
 Data Type: Random Integers
-Bubble Sort (Standard): 3.326866 seconds
-Bubble Sort (Optimized): 0.081710 seconds
-Merge Sort (Standard): 0.014662 seconds
-Merge Sort (Optimized): 0.012979 seconds
-Quick Sort (Standard): 0.012041 seconds
-Quick Sort (Optimized): 0.048260 seconds
+Bubble Sort (Standard): 3.228592 seconds
+Bubble Sort (Optimized): 0.081822 seconds
+Merge Sort (Standard): 0.014567 seconds
+Merge Sort (Optimized): 0.012822 seconds
+Quick Sort (Standard): 0.011361 seconds
+Quick Sort (Optimized): 0.053877 seconds
 
 Data Type: Sorted Data
-Bubble Sort (Standard): 0.000390 seconds
-Bubble Sort (Optimized): 0.000396 seconds
-Merge Sort (Standard): 0.009512 seconds
-Merge Sort (Optimized): 0.006669 seconds
-Quick Sort (Standard): 0.010805 seconds
-Quick Sort (Optimized): 0.034792 seconds
+Bubble Sort (Standard): 0.000396 seconds
+Bubble Sort (Optimized): 0.000392 seconds
+Merge Sort (Standard): 0.009493 seconds
+Merge Sort (Optimized): 0.006571 seconds
+Quick Sort (Standard): 0.010761 seconds
+Quick Sort (Optimized): 0.036139 seconds
 
 Data Type: Reversed Data
-Bubble Sort (Standard): 4.106857 seconds
-Bubble Sort (Optimized): 0.079924 seconds
-Merge Sort (Standard): 0.009943 seconds
-Merge Sort (Optimized): 0.009343 seconds
-Quick Sort (Standard): 0.011053 seconds
-Quick Sort (Optimized): 0.081586 seconds
+Bubble Sort (Standard): 3.993303 seconds
+Bubble Sort (Optimized): 0.077362 seconds
+Merge Sort (Standard): 0.009764 seconds
+Merge Sort (Optimized): 0.009203 seconds
+Quick Sort (Standard): 0.010658 seconds
+Quick Sort (Optimized): 0.081421 seconds
 
 Data Type: Few Unique Elements
-Bubble Sort (Standard): 3.064222 seconds
-Bubble Sort (Optimized): 0.075000 seconds
-Merge Sort (Standard): 0.013961 seconds
-Merge Sort (Optimized): 0.012102 seconds
-Quick Sort (Standard): 0.277782 seconds
+Bubble Sort (Standard): 2.998783 seconds
+Bubble Sort (Optimized): 0.072288 seconds
+Merge Sort (Standard): 0.013994 seconds
+Merge Sort (Optimized): 0.012140 seconds
+Quick Sort (Standard): 0.288828 seconds
+Quick Sort (Optimized): 0.516388 seconds
+
+Dataset Size: 20000
+
+Data Type: Random Integers
+Bubble Sort (Standard): 13.295041 seconds
+Bubble Sort (Optimized): 0.236593 seconds
+Merge Sort (Standard): 0.031238 seconds
+Merge Sort (Optimized): 0.027940 seconds
+Quick Sort (Standard): 0.025071 seconds
+Quick Sort (Optimized): 0.182361 seconds
+
+Data Type: Sorted Data
+Bubble Sort (Standard): 0.000765 seconds
+Bubble Sort (Optimized): 0.000768 seconds
+Merge Sort (Standard): 0.019568 seconds
+Merge Sort (Optimized): 0.014128 seconds
+Quick Sort (Standard): 0.022006 seconds
+Quick Sort (Optimized): 0.128901 seconds
+
+Data Type: Reversed Data
