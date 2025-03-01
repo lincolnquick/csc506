@@ -17,7 +17,7 @@ def dijkstra(graph, start, end):
         if current_node == end:
             return current_distance, path
         
-        for neighbor, weight in graph.get_neighbors(current_node):
+        for neighbor, edge_name, weight in graph.get_neighbors(current_node):
             if neighbor not in visited:
                 heapq.heappush(priority_queue, (current_distance + weight, neighbor, path))
 
