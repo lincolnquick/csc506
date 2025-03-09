@@ -6,7 +6,7 @@ Colorado State University Global Campus
 
 Author: Lincoln Quick
 Date: February 9, 2025
-Updated: February 28, 2025
+Updated: March 9, 2025
 
 Description:
     This script compares the performance of three sorting algorithms:
@@ -24,7 +24,7 @@ Description:
     that improve performance in certain scenarios. These optimized versions are also
     tested and compared against the standard implementations.
 
-    Due to recurion depth limitations, the quick sort algorithm and the optimized quck sort 
+    Due to recursion depth limitations, the quick sort algorithm and the optimized quick sort 
     algorithms have iterative versions.
 
 Usage:
@@ -33,7 +33,7 @@ Usage:
 
 Sections:
     1. Define Sorting Algorithms
-    2. Define Optimized Alogrithms
+    2. Define Optimized Algorithms
     3. Define Data Generation Functions
     4. Define Sorting Test Functions
     5. Define Output Functions
@@ -57,7 +57,7 @@ from data_generation import generate_random_data, generate_sorted_data, generate
 from sorting_tests import test_sorting_algorithms
 
 # 5. Define output functions
-from output_functions import display_results, write_results_to_file
+from output_functions import display_results, write_results_to_file, write_results_to_csv
 
 # 6. Main execution block
 if __name__ == "__main__":
@@ -88,7 +88,10 @@ if __name__ == "__main__":
     # Display results
     display_results(results)
 
-    # Save results to file
+    # Save results to text file
     write_results_to_file(results)
 
-    print("\nSorting test execution completed. Results saved to 'sorting_results_summary.txt'.")
+    # Save results to CSV file for analysis and graphing.
+    write_results_to_csv(results)
+
+    print("\nSorting test execution completed.")

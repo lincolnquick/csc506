@@ -1,3 +1,17 @@
+"""
+data_generation.py - Sorting Algorithm Comparator
+
+CSC 506 - Design and Analysis of Algorithms
+Colorado State University Global Campus
+
+Author: Lincoln Quick
+Date: February 9, 2025
+Updated: March 9, 2025
+
+Description:
+    This module contains functions to generate different types of datasets for sorting tests. 
+    
+"""
 import random
 
 def generate_random_data(size, lower_bound=0, upper_bound=10000):

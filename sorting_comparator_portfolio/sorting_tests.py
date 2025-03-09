@@ -1,3 +1,18 @@
+"""
+sorting_tests.py - Sorting Algorithm Comparator
+
+CSC 506 - Design and Analysis of Algorithms
+Colorado State University Global Campus
+
+Author: Lincoln Quick
+Date: February 9, 2025
+Updated: March 9, 2025
+
+Description:
+    This module contains functions to test sorting algorithms with different data generators
+    and measure their execution time. The results are written to a file for comparison.
+    
+"""
 import time
 
 def test_sorting_algorithms(sort_algorithms, data_generators, sizes, repetitions=3, output_file="sorting_results.txt"):

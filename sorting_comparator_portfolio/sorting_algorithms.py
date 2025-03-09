@@ -1,3 +1,20 @@
+"""
+sorting_algorithms.py - Sorting Algorithm Comparator
+
+CSC 506 - Design and Analysis of Algorithms
+Colorado State University Global Campus
+
+Author: Lincoln Quick
+Date: February 9, 2025
+Updated: March 9, 2025
+
+Description:
+    This module contains implementations of three sorting algorithms:
+        - Bubble Sort
+        - Merge Sort
+        - Quick Sort
+    
+"""
 import random
 
 def bubble_sort(arr):

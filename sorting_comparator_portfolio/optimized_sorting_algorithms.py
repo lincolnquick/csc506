@@ -1,3 +1,19 @@
+"""
+optimized_sorting_algorithms.py - Sorting Algorithm Comparator
+
+CSC 506 - Design and Analysis of Algorithms
+Colorado State University Global Campus
+
+Author: Lincoln Quick
+Date: February 9, 2025
+Updated: March 9, 2025
+
+Description:
+    This module contains optimized versions of the Bubble Sort, Merge Sort, and Quick Sort algorithms.
+    The optimized versions include adaptive pass count for Bubble Sort, in-place Merge Sort, and
+    hybrid Quick Sort with Median-of-Three pivot selection and Insertion Sort for small partitions.
+    
+"""
 from sorting_algorithms import partition
 
 def optimized_bubble_sort(arr):
@@ -44,19 +60,6 @@ def merge(arr, left, mid, right):
         k += 1
     arr[k:right + 1] = left_part[i:] + right_part[j:]  
 
-def optimized_quick_sort(arr, low, high):
-    """ Optimized Quick Sort with Median-of-Three Pivot and Hybrid Insertion Sort. """
-    if low >= high:
-        return  # Base case: Stop recursion if low >= high
-    
-    if high - low <= 10:  # Use Insertion Sort for small partitions
-        insertion_sort(arr, low, high)
-        return
-
-    pivot_index = median_of_three_partition(arr, low, high)  # Improved pivot selection
-    optimized_quick_sort(arr, low, pivot_index - 1)  # Sort left subarray
-    optimized_quick_sort(arr, pivot_index + 1, high)  # Sort right subarray
-
 def iterative_optimized_quick_sort(arr):
     """Iterative Quick Sort using Median-of-Three for better pivot selection."""
     stack = [(0, len(arr) - 1)]
@@ -89,11 +92,9 @@ def median_of_three_partition(arr, low, high):
     :return: Final pivot index.
     """
     mid = (low + high) // 2
-    pivot_candidates = [arr[low], arr[mid], arr[high]]
-    pivot_candidates.sort()
-    pivot = pivot_candidates[1]  # Median value as pivot
+    pivot_candidates = [(arr[low], low), (arr[mid], mid), (arr[high], high)]
+    _, pivot_index = pivot_candidates[1] 
 
-    pivot_index = arr.index(pivot)  # Find actual index
     arr[pivot_index], arr[high] = arr[high], arr[pivot_index]  # Move pivot to end
     return partition(arr, low, high)  # Use Lomuto partitioning
 
