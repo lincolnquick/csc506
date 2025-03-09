@@ -1,0 +1,121 @@
+Dataset Size,Data Type,Algorithm,Time (s)
+1000,Random Integers,Bubble Sort (Standard),0.02912791570027669
+1000,Random Integers,Bubble Sort (Optimized),0.002129713694254557
+1000,Random Integers,Merge Sort (Standard),0.001143058141072591
+1000,Random Integers,Merge Sort (Optimized),0.0009733835856119791
+1000,Random Integers,Quick Sort (Standard),0.0009198188781738281
+1000,Random Integers,Quick Sort (Optimized),0.0006336371103922526
+1000,Sorted Data,Bubble Sort (Standard),3.902117411295573e-05
+1000,Sorted Data,Bubble Sort (Optimized),3.8623809814453125e-05
+1000,Sorted Data,Merge Sort (Standard),0.0007699330647786459
+1000,Sorted Data,Merge Sort (Optimized),0.0005071163177490234
+1000,Sorted Data,Quick Sort (Standard),0.0008378823598225912
+1000,Sorted Data,Quick Sort (Optimized),0.00040451685587565106
+1000,Reversed Data,Bubble Sort (Standard),0.03384216626485189
+1000,Reversed Data,Bubble Sort (Optimized),0.0020976861317952475
+1000,Reversed Data,Merge Sort (Standard),0.0008630752563476562
+1000,Reversed Data,Merge Sort (Optimized),0.0006814002990722656
+1000,Reversed Data,Quick Sort (Standard),0.0008588631947835287
+1000,Reversed Data,Quick Sort (Optimized),0.0005079905192057291
+1000,Few Unique Elements,Bubble Sort (Standard),0.026645819346110027
+1000,Few Unique Elements,Bubble Sort (Optimized),0.0019419193267822266
+1000,Few Unique Elements,Merge Sort (Standard),0.0011642773946126301
+1000,Few Unique Elements,Merge Sort (Optimized),0.0008490880330403646
+1000,Few Unique Elements,Quick Sort (Standard),0.003412008285522461
+1000,Few Unique Elements,Quick Sort (Optimized),0.0030770301818847656
+5000,Random Integers,Bubble Sort (Standard),0.8101379871368408
+5000,Random Integers,Bubble Sort (Optimized),0.027252991994222004
+5000,Random Integers,Merge Sort (Standard),0.006769895553588867
+5000,Random Integers,Merge Sort (Optimized),0.005801677703857422
+5000,Random Integers,Quick Sort (Standard),0.005233287811279297
+5000,Random Integers,Quick Sort (Optimized),0.0041656494140625
+5000,Sorted Data,Bubble Sort (Standard),0.00020869572957356772
+5000,Sorted Data,Bubble Sort (Optimized),0.00020130475362141928
+5000,Sorted Data,Merge Sort (Standard),0.004583279291788737
+5000,Sorted Data,Merge Sort (Optimized),0.003108342488606771
+5000,Sorted Data,Quick Sort (Standard),0.005264838536580403
+5000,Sorted Data,Quick Sort (Optimized),0.002358675003051758
+5000,Reversed Data,Bubble Sort (Standard),0.9689062436421713
+5000,Reversed Data,Bubble Sort (Optimized),0.026670058568318684
+5000,Reversed Data,Merge Sort (Standard),0.004614830017089844
+5000,Reversed Data,Merge Sort (Optimized),0.00436703364054362
+5000,Reversed Data,Quick Sort (Standard),0.004894256591796875
+5000,Reversed Data,Quick Sort (Optimized),0.003182093302408854
+5000,Few Unique Elements,Bubble Sort (Standard),0.725649356842041
+5000,Few Unique Elements,Bubble Sort (Optimized),0.02482302983601888
+5000,Few Unique Elements,Merge Sort (Standard),0.006422758102416992
+5000,Few Unique Elements,Merge Sort (Optimized),0.0055277347564697266
+5000,Few Unique Elements,Quick Sort (Standard),0.06929135322570801
+5000,Few Unique Elements,Quick Sort (Optimized),0.06803528467814128
+10000,Random Integers,Bubble Sort (Standard),3.21178936958313
+10000,Random Integers,Bubble Sort (Optimized),0.0782018502553304
+10000,Random Integers,Merge Sort (Standard),0.014424959818522135
+10000,Random Integers,Merge Sort (Optimized),0.012720743815104166
+10000,Random Integers,Quick Sort (Standard),0.011351267496744791
+10000,Random Integers,Quick Sort (Optimized),0.00810098648071289
+10000,Sorted Data,Bubble Sort (Standard),0.0003897349039713542
+10000,Sorted Data,Bubble Sort (Optimized),0.00038965543111165363
+10000,Sorted Data,Merge Sort (Standard),0.00919342041015625
+10000,Sorted Data,Merge Sort (Optimized),0.006460984547932942
+10000,Sorted Data,Quick Sort (Standard),0.01039266586303711
+10000,Sorted Data,Quick Sort (Optimized),0.0050593217213948565
+10000,Reversed Data,Bubble Sort (Standard),3.9498610496520996
+10000,Reversed Data,Bubble Sort (Optimized),0.0768295129140218
+10000,Reversed Data,Merge Sort (Standard),0.009621302286783854
+10000,Reversed Data,Merge Sort (Optimized),0.009158611297607422
+10000,Reversed Data,Quick Sort (Standard),0.010800679524739584
+10000,Reversed Data,Quick Sort (Optimized),0.006577968597412109
+10000,Few Unique Elements,Bubble Sort (Standard),2.940094470977783
+10000,Few Unique Elements,Bubble Sort (Optimized),0.0713941256205241
+10000,Few Unique Elements,Merge Sort (Standard),0.013774792353312174
+10000,Few Unique Elements,Merge Sort (Optimized),0.011849244435628256
+10000,Few Unique Elements,Quick Sort (Standard),0.2708276907602946
+10000,Few Unique Elements,Quick Sort (Optimized),0.27058760325113934
+20000,Random Integers,Bubble Sort (Standard),12.995417992273966
+20000,Random Integers,Bubble Sort (Optimized),0.2270069122314453
+20000,Random Integers,Merge Sort (Standard),0.031429449717203774
+20000,Random Integers,Merge Sort (Optimized),0.027851422627766926
+20000,Random Integers,Quick Sort (Standard),0.02417898178100586
+20000,Random Integers,Quick Sort (Optimized),0.018207391103108723
+20000,Sorted Data,Bubble Sort (Standard),0.0007660388946533203
+20000,Sorted Data,Bubble Sort (Optimized),0.0007789134979248047
+20000,Sorted Data,Merge Sort (Standard),0.019660075505574543
+20000,Sorted Data,Merge Sort (Optimized),0.016397555669148762
+20000,Sorted Data,Quick Sort (Standard),0.023137013117472332
+20000,Sorted Data,Quick Sort (Optimized),0.010972897211710611
+20000,Reversed Data,Bubble Sort (Standard),16.09633429845174
+20000,Reversed Data,Bubble Sort (Optimized),0.219757080078125
+20000,Reversed Data,Merge Sort (Standard),0.020559946695963543
+20000,Reversed Data,Merge Sort (Optimized),0.019500176111857098
+20000,Reversed Data,Quick Sort (Standard),0.02382238705952962
+20000,Reversed Data,Quick Sort (Optimized),0.014092445373535156
+20000,Few Unique Elements,Bubble Sort (Standard),11.890211343765259
+20000,Few Unique Elements,Bubble Sort (Optimized),0.21593459447224936
+20000,Few Unique Elements,Merge Sort (Standard),0.029620647430419922
+20000,Few Unique Elements,Merge Sort (Optimized),0.025774002075195312
+20000,Few Unique Elements,Quick Sort (Standard),1.0848886966705322
+20000,Few Unique Elements,Quick Sort (Optimized),1.0849246978759766
+50000,Random Integers,Bubble Sort (Standard),83.10443385442098
+50000,Random Integers,Bubble Sort (Optimized),0.9551501274108887
+50000,Random Integers,Merge Sort (Standard),0.08504692713419597
+50000,Random Integers,Merge Sort (Optimized),0.07886131604512532
+50000,Random Integers,Quick Sort (Standard),0.07182534535725911
+50000,Random Integers,Quick Sort (Optimized),0.04996959368387858
+50000,Sorted Data,Bubble Sort (Standard),0.001954237620035807
+50000,Sorted Data,Bubble Sort (Optimized),0.002036015192667643
+50000,Sorted Data,Merge Sort (Standard),0.05174867312113444
+50000,Sorted Data,Merge Sort (Optimized),0.042681614557902016
+50000,Sorted Data,Quick Sort (Standard),0.05967036883036295
+50000,Sorted Data,Quick Sort (Optimized),0.030327876408894856
+50000,Reversed Data,Bubble Sort (Standard),102.16850264867146
+50000,Reversed Data,Bubble Sort (Optimized),0.8993814786275228
+50000,Reversed Data,Merge Sort (Standard),0.05441737174987793
+50000,Reversed Data,Merge Sort (Optimized),0.05026404062906901
+50000,Reversed Data,Quick Sort (Standard),0.05959924062093099
+50000,Reversed Data,Quick Sort (Optimized),0.03845564524332682
+50000,Few Unique Elements,Bubble Sort (Standard),158.45241610209146
+50000,Few Unique Elements,Bubble Sort (Optimized),0.8296480178833008
+50000,Few Unique Elements,Merge Sort (Standard),0.07917300860087077
+50000,Few Unique Elements,Merge Sort (Optimized),0.07162801424662273
+50000,Few Unique Elements,Quick Sort (Standard),6.696849664052327
+50000,Few Unique Elements,Quick Sort (Optimized),6.676933606465657
